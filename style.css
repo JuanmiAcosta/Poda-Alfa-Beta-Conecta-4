@@ -1,0 +1,159 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    font-family: 'Chakra Petch', sans-serif;
+    overflow: hidden; 
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu,
+#conecta4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#content h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 3px solid #fff;
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    min-width: 200px;
+    max-width: 400px;
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.7s;
+    text-decoration: none;
+}
+
+.boton img {
+    width: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.boton:hover {
+    background-color: white;
+    color: black;
+    border: 5px solid black;
+    text-decoration: underline;
+}
+
+#botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#content {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    color: white;
+}
+
+#conecta4 {
+    background-color: black;
+}
+
+#conecta4 h1 {
+
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top:5px;
+    margin-bottom: 5px;
+
+}
+
+#content-con {
+    text-align: center;
+    max-width: 600px;
+    max-height: 80%;
+    width: 60%;
+    padding: 10px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    border-radius: 10%;
+    border: 5px solid #000000;
+    background-color: #444;
+    padding: 10px;
+    margin:10px;
+    box-shadow: 0 0 10px 5px #fff;
+}
+
+.cell {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Clases de estilo para los discos colocados */
+
+.purple {
+    background-color: rgb(139, 12, 130);
+    border: 1px solid #dd2fc3;
+}
+
+.blue {
+    background-color: rgb(24, 176, 193);
+    border: 1px solid #55d9fe;
+
+}

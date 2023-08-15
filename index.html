@@ -5,9 +5,9 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="icons/menu.png">
-    <title>Menu</title>
-    <link rel="stylesheet" href="css/menu.css">
+    <link rel="icon" href="icons/conecta4.png">
+    <title>Conecta4</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <section>
+    <section id="menu">
 
         <video src="video/menu.webm" id="video-background" autoplay="true" muted="true" loop="true"></video>
 
@@ -26,20 +26,75 @@
             <h1 style="color:white;">Menu</h1>
 
             <div id="botones">
-                <a href="juego.html"><button class="boton"><img src="icons/humano.png" alt="Icono">Human vs Human<img src="icons/humano.png" alt="Icono"></button></a>
+                <a href="#conecta4"><button class="boton"><img src="icons/humano.png" alt="Icono">Human vs Human<img
+                            src="icons/humano.png" alt="Icono"></button></a>
                 <hr>
-                <a href="juego.html"><button class="boton"><img src="icons/ai.png" alt="Icono">Human vs AI 'Easy'<img src="icons/ai.png" alt="Icono"></button></a>
-                <a href="juego.html"><button class="boton"><img src="icons/ai.png" alt="Icono">Human vs AI 'Medium'<img src="icons/ai.png" alt="Icono"></button></a>
-                <a href="juego.html"><button class="boton"><img src="icons/ai.png" alt="Icono">Human vs AI 'Oh hell no'<img src="icons/ai.png" alt="Icono"></button></a>
+                <a href="#conecta4"><button class="boton"><img src="icons/ai.png" alt="Icono">Human vs AI 'Easy'<img
+                            src="icons/ai.png" alt="Icono"></button></a>
+                <a href="#conecta4"><button class="boton"><img src="icons/ai.png" alt="Icono">Human vs AI 'Medium'<img
+                            src="icons/ai.png" alt="Icono"></button></a>
+                <a href="#conecta4"><button class="boton"><img src="icons/ai.png" alt="Icono">Human vs AI 'Oh hell
+                        no'<img src="icons/ai.png" alt="Icono"></button></a>
             </div>
 
         </div>
 
-        <footer>
-            <p style="color:white;">© 2023 | Todos los derechos reservados</p>
-        </footer>
-
     </section>
+
+    <section id="conecta4">
+        <h1 style="color:white;">Connect-4</h1>
+        
+        <div id="content-con">
+           
+            <div class="board">
+                <div class="cell" id="0"></div>
+                <div class="cell" id="1"></div>
+                <div class="cell" id="2"></div>
+                <div class="cell" id="3"></div>
+                <div class="cell" id="4"></div>
+                <div class="cell" id="5"></div>
+                <div class="cell" id="6"></div>
+                <div class="cell" id="7"></div>
+                <div class="cell" id="8"></div>
+                <div class="cell" id="9"></div>
+                <div class="cell" id="10"></div>
+                <div class="cell" id="11"></div>
+                <div class="cell" id="12"></div>
+                <div class="cell" id="13"></div>
+                <div class="cell" id="14"></div>
+                <div class="cell" id="15"></div>
+                <div class="cell" id="16"></div>
+                <div class="cell" id="17"></div>
+                <div class="cell" id="18"></div>
+                <div class="cell" id="19"></div>
+                <div class="cell" id="20"></div>
+                <div class="cell" id="21"></div>
+                <div class="cell" id="22"></div>
+                <div class="cell" id="23"></div>
+                <div class="cell" id="24"></div>
+                <div class="cell" id="25"></div>
+                <div class="cell" id="26"></div>
+                <div class="cell" id="27"></div>
+                <div class="cell" id="28"></div>
+                <div class="cell" id="29"></div>
+                <div class="cell" id="30"></div>
+                <div class="cell" id="31"></div>
+                <div class="cell" id="32"></div>
+                <div class="cell" id="33"></div>
+                <div class="cell" id="34"></div>
+                <div class="cell" id="35"></div>
+                <div class="cell" id="36"></div>
+                <div class="cell" id="37"></div>
+                <div class="cell" id="38"></div>
+                <div class="cell" id="39"></div>
+                <div class="cell" id="40"></div>
+                <div class="cell" id="41"></div>
+            </div>
+            
+        </div>
+        <a href="#menu"><button class="boton"><img src="icons/atras.png" alt="Icono"> Back </button></a>
+    </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
