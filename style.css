@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    user-select: none;
 }
 
 body {
@@ -105,6 +106,10 @@ hr {
     background-color: black;
 }
 
+#atras_restart{
+    display: flex;
+}
+
 #conecta4 h1 {
 
     font-size: 50px;
@@ -119,7 +124,7 @@ hr {
     text-align: center;
     max-width: 600px;
     max-height: 80%;
-    width: 60%;
+    width: 80%;
     padding: 10px;
 }
 
@@ -143,6 +148,13 @@ hr {
     border-radius: 50%;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+
+/*media query para pantallas menores a 470px*/
+@media (max-width: 470px){
+    #atras_restart{
+        flex-direction: column;
+    }
 }
 
 /* Clases de estilo para los discos colocados */
