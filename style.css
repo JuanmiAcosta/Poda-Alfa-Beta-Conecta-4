@@ -117,6 +117,7 @@ hr {
     padding-bottom: 20px;
     margin-top:5px;
     margin-bottom: 5px;
+    z-index: 1;
 
 }
 
@@ -146,6 +147,7 @@ hr {
     padding-bottom: 100%;
     background-color: #ddd;
     border-radius: 50%;
+    border: 2px solid #000000;
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -161,11 +163,8 @@ hr {
 
 .purple {
     background-color: rgb(139, 12, 130);
-    border: 1px solid #dd2fc3;
 }
 
 .blue {
     background-color: rgb(24, 176, 193);
-    border: 1px solid #55d9fe;
-
 }
