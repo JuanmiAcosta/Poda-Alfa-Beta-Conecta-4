@@ -108,7 +108,6 @@ const game = new gameBoard();
 function mostrarGanador() {
     if (game.currentPlayer === PURPLE) {
         h1Conecta4.innerHTML = 'Ganó el jugador ' + 'PURPLE';
-        h1Conecta4.style.fontSize = '60px';
         h1Conecta4.style.color = "rgb(65, 10, 61)";
         h1Conecta4.style.zIndex = 5;
         backButton.style.zIndex = 5;
@@ -119,7 +118,6 @@ function mostrarGanador() {
     }
     else {
         h1Conecta4.innerHTML = 'Ganó el jugador ' + 'BLUE';
-        h1Conecta4.style.fontSize = '60px';
         h1Conecta4.style.color = "darkblue";
         h1Conecta4.style.zIndex = 5;
         backButton.style.zIndex = 5;
@@ -135,7 +133,6 @@ function mostrarGanador() {
 function mostrarEmpate() {
 
     h1Conecta4.innerHTML = 'Empate';
-    h1Conecta4.style.fontSize = '60px';
     h1Conecta4.style.zIndex = 5;
     backButton.style.zIndex = 5;
     restartButton.style.zIndex = 5;
@@ -162,7 +159,6 @@ function resetGame() {
     game.resetBoard();
 
     h1Conecta4.innerHTML = 'Connect-4';
-    h1Conecta4.style.fontSize = '50px';
     h1Conecta4.style.color = "white";
     h1Conecta4.style.zIndex = 0;
     backButton.style.zIndex = 0;
