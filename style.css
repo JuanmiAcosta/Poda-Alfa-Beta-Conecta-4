@@ -8,6 +8,7 @@ body {
     margin: 0;
     font-family: 'Chakra Petch', sans-serif;
     overflow: hidden; 
+    background-color: #000000;
 }
 
 a {

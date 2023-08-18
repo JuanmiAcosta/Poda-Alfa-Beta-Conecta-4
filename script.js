@@ -1,3 +1,10 @@
+//Banderas modos de juego
+const HvsH = 0;
+const HvsAIE = 1;
+const HvsAIM = 2;
+const HvsAIH = 3;
+
+//Estados tablero virtual
 const EMPTY = 0;
 const PURPLE = 1;
 const BLUE = 2;
@@ -7,10 +14,10 @@ const boardElement = document.getElementById('board');
 const restartButton = document.getElementById('restart');
 const backButton = document.getElementById('back');
 const cells = document.querySelectorAll('.cell');
-
 const h1Conecta4 = document.getElementById('h1Conecta4');
 const fondoConecta4 = document.getElementById('conecta4');
 
+//Clase tablero de juego
 class gameBoard {
 
     numRows = 6;
@@ -107,7 +114,7 @@ const game = new gameBoard();
 
 function mostrarGanador() {
     if (game.currentPlayer === PURPLE) {
-        h1Conecta4.innerHTML = 'Ganó el jugador ' + 'PURPLE';
+        h1Conecta4.innerHTML = 'PURPLE won';
         h1Conecta4.style.color = "rgb(65, 10, 61)";
         h1Conecta4.style.zIndex = 5;
         backButton.style.zIndex = 5;
@@ -117,7 +124,7 @@ function mostrarGanador() {
         fondoConecta4.style.backgroundColor = "rgba(139, 12, 130,0.5)";
     }
     else {
-        h1Conecta4.innerHTML = 'Ganó el jugador ' + 'BLUE';
+        h1Conecta4.innerHTML = 'BLUE won';
         h1Conecta4.style.color = "darkblue";
         h1Conecta4.style.zIndex = 5;
         backButton.style.zIndex = 5;
@@ -132,11 +139,12 @@ function mostrarGanador() {
 
 function mostrarEmpate() {
 
-    h1Conecta4.innerHTML = 'Empate';
-    h1Conecta4.style.zIndex = 5;
+    h1Conecta4.innerHTML = 'DRAW';
+    h1Conecta4.style.zIndex = 5;l
     backButton.style.zIndex = 5;
     restartButton.style.zIndex = 5;
     fondoConecta4.style.zIndex = 3;
+
     fondoConecta4.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
 
     blockCellClick();
