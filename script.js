@@ -141,12 +141,12 @@ function mostrarGanador() {
 function mostrarEmpate() {
 
     h1Conecta4.innerHTML = 'DRAW';
-    h1Conecta4.style.zIndex = 5;l
+    h1Conecta4.style.zIndex = 5;
     backButton.style.zIndex = 5;
     restartButton.style.zIndex = 5;
     fondoConecta4.style.zIndex = 3;
 
-    fondoConecta4.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+    fondoConecta4.style.backgroundColor = "rgba(105, 99, 105,0.5)";
 
     blockCellClick();
 }
