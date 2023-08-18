@@ -113,6 +113,7 @@ class gameBoard {
 const game = new gameBoard();
 
 function mostrarGanador() {
+
     if (game.currentPlayer === PURPLE) {
         h1Conecta4.innerHTML = 'PURPLE won';
         h1Conecta4.style.color = "rgb(65, 10, 61)";
@@ -121,7 +122,7 @@ function mostrarGanador() {
         restartButton.style.zIndex = 5;
         fondoConecta4.style.zIndex = 3;
 
-        fondoConecta4.style.backgroundColor = "rgba(139, 12, 130,0.5)";
+        fondoConecta4.style.backgroundColor = "rgba(217, 70, 207,0.5)";
     }
     else {
         h1Conecta4.innerHTML = 'BLUE won';
@@ -174,6 +175,8 @@ function resetGame() {
     fondoConecta4.style.zIndex = 0;
     fondoConecta4.style.opacity = 1;
     fondoConecta4.style.backgroundColor = "black";
+
+    game.currentPlayer = PURPLE;
 
     freeCellClick();
 }
