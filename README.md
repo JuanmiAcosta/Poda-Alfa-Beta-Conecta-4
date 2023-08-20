@@ -1,6 +1,11 @@
-# Poda-Alfa-Beta-Conecta-4 📓
+> [!WARNING]
+> <h1 style="color:rgb(255, 0, 0)"> (Work in progress)</h1>
 
-En esta aplicación web pondré en práctica lo aprendido acerca de algoritmos de búsqueda sobre juegos bipersonales de información perfecta, y desarrollaré diferentes heurísticas para hacer uso del algoritmo Minimax con Poda Alfa-Beta para desarrollar una IA para jugar al "Conecta 4".🤔
+# Poda-Alfa-Beta-Conecta-4 📓
+  
+Minijuego "4 in a row" o "Connect-4" desarrollado sin frameworks para seguir aprendiendo más sobre la metodología de este tipo de proyectos en javascript.
+
+Además en esta aplicación web pondré en práctica lo aprendido acerca de algoritmos de búsqueda sobre juegos bipersonales de información perfecta, y desarrollaré diferentes heurísticas para hacer uso del algoritmo Minimax con Poda Alfa-Beta para desarrollar una IA para jugar al "Conecta 4".🤔
 
 ![Imagen representativa](https://github.com/JuanmiAcosta/Poda-Alfa-Beta-Conecta-4/blob/main/captura.png?raw=true)
 
