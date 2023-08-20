@@ -1,6 +1,4 @@
-# Poda-Alfa-Beta-Conecta-4  📓
-
-<h1 style="color:red" > (Work in progress)<h1>
+# Poda-Alfa-Beta-Conecta-4 <span style="color:red" > (Work in progress)<span> 📓
   
 Minijuego "4 in a row" o "Connect-4" desarrollado sin frameworks para seguir aprendiendo más sobre la metodología de este tipo de proyectos en javascript.
 
