@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
     user-select: none;
 }
@@ -7,7 +7,7 @@ body {
     position: relative;
     margin: 0;
     font-family: 'Chakra Petch', sans-serif;
-    overflow: hidden; 
+    overflow: hidden;
     background-color: #000000;
 }
 
@@ -15,11 +15,11 @@ a {
     text-decoration: none;
 }
 
-#menu{
+#menu {
     justify-content: flex-start;
 }
 
-#conecta4{
+#conecta4 {
     justify-content: center;
 }
 
@@ -37,7 +37,7 @@ a {
 #content h1 {
     font-size: 50px;
     text-align: center;
-    padding:10px;
+    padding: 10px;
 }
 
 video {
@@ -73,6 +73,14 @@ hr {
     cursor: pointer;
     transition: background-color 0.7s;
     text-decoration: none;
+}
+
+#HvsAIE,
+#HvsAIM,
+#HvsAIH {
+    pointer-events: none;
+    /* Otros estilos para darle apariencia de botón */
+    background-color: gray;
 }
 
 .boton img {
@@ -114,7 +122,7 @@ hr {
     background-color: black;
 }
 
-#atras_restart{
+#atras_restart {
     display: flex;
 }
 
@@ -123,7 +131,7 @@ hr {
     font-size: 50px;
     text-align: center;
     padding-bottom: 20px;
-    margin-top:5px;
+    margin-top: 5px;
     margin-bottom: 5px;
     z-index: 1;
 
@@ -146,7 +154,7 @@ hr {
     border: 5px solid #000000;
     background-color: #444;
     padding: 10px;
-    margin:10px;
+    margin: 10px;
     box-shadow: 0 0 10px 5px #fff;
 }
 
@@ -161,17 +169,17 @@ hr {
 }
 
 /*media query para pantallas menores a 470px*/
-@media (max-width: 470px){
-    #atras_restart{
+@media (max-width: 470px) {
+    #atras_restart {
         flex-direction: column;
     }
 
-    hr{
+    hr {
         margin-top: 5px;
-        margin-bottom: 5px; 
+        margin-bottom: 5px;
     }
 
-    #content h1{
+    #content h1 {
         margin-top: 5px;
         margin-bottom: 5px;
     }
