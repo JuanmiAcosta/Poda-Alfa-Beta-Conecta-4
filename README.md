@@ -1,5 +1,5 @@
 > [!WARNING]
-> <h1 style="color:rgb(255, 0, 0)"> (Work in progress)</h1>
+> <h1 style="color:rgb(255, 0, 0)"> (Work in progress) Falta terminar IA</h1>
 
 # Poda-Alfa-Beta-Conecta-4 📓
   
